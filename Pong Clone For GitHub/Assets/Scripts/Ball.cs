@@ -31,7 +31,7 @@ public class Ball : MonoBehaviour {
 
 		rb2d = GetComponent<Rigidbody2D> ();
 
-		rb2d.velocity = new Vector2 (3f, 3f);
+		rb2d.velocity = new Vector2 (5f, 5f);
 
 		//setting the values to 0 when the game starts
 
