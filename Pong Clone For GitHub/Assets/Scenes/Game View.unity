@@ -1257,8 +1257,8 @@ MonoBehaviour:
   Score_Player_2: {fileID: 1161188530}
   P1_Win: {fileID: 814412231}
   P2_Win: {fileID: 1636010043}
---- !u!61 &2036841191
-BoxCollider2D:
+--- !u!58 &2036841191
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1270,18 +1270,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.15, y: 1.15}
-    newSize: {x: 1.15, y: 1.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.15, y: 1.15}
-  m_EdgeRadius: 0
+  m_Radius: 0.575
 --- !u!50 &2036841192
 Rigidbody2D:
   serializedVersion: 4
