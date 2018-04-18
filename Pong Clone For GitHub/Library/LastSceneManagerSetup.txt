@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Game View.unity
+- path: Assets/Scenes/Title Card.unity
   isLoaded: 1
   isActive: 1

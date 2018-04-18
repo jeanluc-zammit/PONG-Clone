@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title Card.unity
+    guid: 48cf7ce92dbc541a288dd28981a1f943
+  - enabled: 1
+    path: Assets/Scenes/Game View.unity
+    guid: 5f097d444364a410f8e1d73937d3f88a

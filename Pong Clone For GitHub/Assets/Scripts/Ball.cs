@@ -82,7 +82,7 @@ public class Ball : MonoBehaviour {
 
 				Time.timeScale = 1;
 
-				SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+				SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex -1); //go back one scene
 			}
 
 		}
@@ -98,7 +98,7 @@ public class Ball : MonoBehaviour {
 
 				Time.timeScale = 1;
 
-				SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+				SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex -1); //go back one scene
 			}
 
 		}
